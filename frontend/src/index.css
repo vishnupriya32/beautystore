@@ -1,0 +1,82 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d8c25f;
+  background-image: -o-repeating-linear-gradient();
+  padding: 1rem;
+  color: rgb(245, 220, 131);
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li Link {
+  color: rgb(241, 166, 166);
+  text-decoration: none;
+}
+
+footer {
+  background-color: #756f37;
+  color: rgb(12, 1, 18);
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #eaecb2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #091001;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #8a930b;
+  border-radius: 5px;
+  background-color: #d1d151;
+}
+
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #45750e;
+  border: none;
+  color: rgb(163, 188, 18);
+  border-radius: 5px;
+}
+
+form p {
+  color: rgb(151, 101, 20);
+  margin: 0.5rem 0 0;
+}
+

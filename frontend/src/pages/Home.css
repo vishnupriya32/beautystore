@@ -1,0 +1,20 @@
+/* .homeimg{
+    width: 100%;
+    min-height: 91.5vh;
+    max-height: auto;
+} */
+.Home-Page{
+  height: calc(100vh - 100px); /* Adjust height if needed, considering header and footer height */
+  padding-top: 60px; /* Adjust if you have a fixed header */
+  padding-bottom: 60px
+}
+body{
+    background-color: rgb(67, 61, 4);
+}
+.butt{
+    text-decoration: none;
+    border: 1px solid white;
+}
+.butt:hover{
+    color: rgb(214, 196, 162);
+}
